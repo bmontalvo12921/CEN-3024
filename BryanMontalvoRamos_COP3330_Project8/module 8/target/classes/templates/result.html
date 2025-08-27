@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org" lang="english">
+<head>
+    <title>COP 3330 Project 8: Results</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+<h1 style="font-size: 28pt;">Bryan Montalvo Ramos - COP 3330 Project 8: Results</h1>
+
+<p><em>Here is the data you entered.</em></p>
+
+<p>Student ID: <span th:text="${greeting.id}"></span></p>
+<p>Name: <span th:text="${greeting.name}"></span></p>
+<p>Date of Birth: <span th:text="${greeting.month} + '/' + ${greeting.day} + '/' + ${greeting.year}"></span></p>
+<p>Message: <span th:text="${greeting.message}"></span></p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org" lang="english">
+<head>
+    <title>COP 3330 Project 8: Greeting</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body style="font-family: Arial, sans-serif;">
+
+<h1 style="font-size: 28pt;">Bryan Montalvo Ramos - COP 3330 Project 8: Greeting</h1>
+
+<p><strong><em>Please enter your student ID, a date, and a message below.</em></strong></p>
+
+<form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
+
+    <p>Student ID: <input type="text" th:field="*{id}" required /></p>
+
+    <p>Name: <input type="text" th:field="*{name}" required /></p>
+
+    <p>Enter Date of Birth (Month / Day / Year):</p>
+    <p>
+        Month: <input type="text" th:field="*{month}" required />
+        Day: <input type="text" th:field="*{day}" required />
+        Year: <input type="text" th:field="*{year}" required />
+    </p>
+
+    <p><input type="submit" value="Enter Data" /> <input type="reset" value="Clear" /></p>
+
+    <p th:if="${error}" style="color: red; font-weight: bold;" th:text="${error}"></p>
+
+</form>
+
+</body>
+</html>
