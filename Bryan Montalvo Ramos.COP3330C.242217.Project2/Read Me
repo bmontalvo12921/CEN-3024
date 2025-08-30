@@ -1,0 +1,30 @@
+//Read
+Mechanic App
+Description
+This project models a workplace with different types of employees (Mechanic, Worker, Manager, TeamLead, etc.) and vehicles.
+It demonstrates Object-Oriented Programming (OOP) concepts in Java such as:
+•	Classes and objects
+•	Inheritance
+•	Encapsulation (getters/setters)
+•	Polymorphism
+The source files provided are:
+•	MechanicApp.java (main program)
+•	Vehicle.java
+•	Vehicleclass.java
+•	Employee.java
+•	Worker.java
+•	Manager.java
+•	TeamLead.java
+Requirements
+•	Java Development Kit (JDK) 17 or higher
+•	IntelliJ IDEA (Community or Ultimate)
+Running in IntelliJ IDEA
+1.	Open IntelliJ IDEA
+o	Go to File > New > Project from Existing Sources...
+o	Select the folder where these .java files are located.
+2.	Set up JDK
+o	When prompted, select your installed Java SDK (17 or higher).
+3.	Mark source folder
+o	Right-click the folder with your .java files > Mark Directory as > Sources Root.
+4.	Run the program
+o	Open MechanicApp.java.
