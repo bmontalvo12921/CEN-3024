@@ -1,0 +1,38 @@
+Java OOP and Exception Handling Apps
+Description
+This project contains multiple small Java applications that demonstrate object-oriented programming and exception handling.
+
+Mechanic and Employee System
+•	Models a workplace with different types of employees and vehicles.
+•	Demonstrates OOP concepts such as inheritance, encapsulation, and polymorphism.
+•	Main class: MechanicApp.java
+
+Password Validation
+•	Validates user-entered passwords.
+•	Uses a custom exception (PasswordVerifyException.java) to enforce rules.
+•	Main class: PasswordValidationApp.java
+
+Division Application
+•	Performs division between numbers.
+•	Handles exceptions such as division by zero.
+•	Main class: DivisionApp.java
+
+Requirements
+•	Java Development Kit (JDK) 17 or higher
+•	IntelliJ IDEA (Community or Ultimate Edition)
+
+Running in IntelliJ IDEA
+1.	Open IntelliJ IDEA.
+o	Go to File > New > Project from Existing Sources...
+o	Select the folder containing these .java files.
+
+2.	Configure the JDK.
+o	When prompted, select Java SDK 17 or higher.
+
+3.	Mark the source folder.
+o	Right-click the folder with your .java files → Mark Directory as > Sources Root.
+
+4.	Run the desired application.
+o	Open MechanicApp.java, PasswordValidationApp.java, or DivisionApp.java.
+o	Right-click inside the editor → Run 'ClassName.main()'.
+
