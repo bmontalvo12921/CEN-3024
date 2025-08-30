@@ -1,0 +1,32 @@
+Spring Boot Project 8 – Form Handling App
+•	A web application using Spring Boot and Thymeleaf.
+•	Collects form input (Student ID, Name, DOB, Message) and displays it on a results page.
+•	Includes validation and a custom error page.
+Key Files:
+•	HandlingFormSubmissionApplication.java → Entry point
+•	GreetingController.java → Handles form logic
+•	Greeting.java → Data model
+•	CustomErrorController.java → Error handling
+•	templates/greeting.html → Input form 
+•	templates/result.html → Results page 
+•	templates/error.html → Error page 
+•	application.properties → Config (port, Thymeleaf paths)
+Run Instructions:
+1.	Run from IntelliJ: Open and run HandlingFormSubmissionApplication.java.
+Visit: http://localhost:8080/greeting
+2.	Run from JAR:
+3.	java -jar target/myproject-0.0.1-SNAPSHOT.jar
+Then open http://localhost:8080/greeting.
+
+Requirements
+•	Java Development Kit (JDK) 17 or higher
+•	IntelliJ IDEA (Community or Ultimate Edition)
+•	SQLite JDBC driver (for SQL project)
+•	Maven (for Spring Boot project)
+
+Running in IntelliJ IDEA
+1.	Open IntelliJ IDEA.
+2.	File > New > Project from Existing Sources... → Select project folder.
+3.	Configure JDK 17+.
+4.	Mark Source Folder as Sources Root.
+5.	Open the desired main class → Right-click → Run 'ClassName.main()'.
